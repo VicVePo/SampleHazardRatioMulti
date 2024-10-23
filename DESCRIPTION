@@ -1,0 +1,16 @@
+Package: SampleHazardRatioMulti
+Title: Calculo de Tamano Muestral para Analisis de Supervivencia
+Version: 0.1.0
+Authors@R: 
+    person("Victor J.", "Vera-Ponce", email = "victor_jvp@hotmail.com",
+           role = c("aut", "cre"))
+Description: Herramientas para calcular tamanos muestrales en estudios
+    de supervivencia que utilizan el modelo de Cox, considerando el efecto
+    de covariables y diferentes aproximaciones metodologicas.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats
+LazyData: true
